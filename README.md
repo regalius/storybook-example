@@ -1,1 +1,1 @@
-A Demo repository for https://medium.com/@felixtan/writing-reusable-redux-like-a-boss-d3780e7ecbf0
+A Demo repository for https://medium.com/@felixtan/how-to-better-manage-your-react-components-with-storybook-c6b06abe71e9
