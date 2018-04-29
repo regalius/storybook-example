@@ -21,4 +21,5 @@ yarn-debug.log*
 yarn-error.log*
 
 /storybook-static
-/__diff_output__
+__diff_output__/
+__diff_output__/**
