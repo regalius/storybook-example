@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Component/Promo Bar default 1`] = `
+<div
+  className="promo_bar__container"
+>
+  <div
+    className="promo_bar"
+    style={
+      Object {
+        "left": "0%",
+      }
+    }
+  >
+    <span
+      className="promo_bar__item"
+    >
+      <img
+        alt="logo"
+        className="newsfeed__logo"
+        src="logo.svg"
+      />
+      100% Cashback every Monday
+    </span>
+    <span
+      className="promo_bar__item"
+    >
+      <img
+        alt="logo"
+        className="newsfeed__logo"
+        src="logo.svg"
+      />
+      Get Free React E-book on course purchase
+    </span>
+    <span
+      className="promo_bar__item"
+    >
+      <img
+        alt="logo"
+        className="newsfeed__logo"
+        src="logo.svg"
+      />
+      Get a free React.conf tickets every course purchase
+    </span>
+  </div>
+</div>
+`;

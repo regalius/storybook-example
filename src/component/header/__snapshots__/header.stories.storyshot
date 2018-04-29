@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Component/Header default 1`] = `
+<nav
+  className="header"
+>
+  <a
+    aria-current="true"
+    className="header__navlink selected"
+    href="/"
+    onClick={[Function]}
+    style={Object {}}
+  >
+    Home
+  </a>
+  <a
+    aria-current={false}
+    className="header__navlink"
+    href="/news"
+    onClick={[Function]}
+    style={undefined}
+  >
+    Newsfeed
+  </a>
+</nav>
+`;

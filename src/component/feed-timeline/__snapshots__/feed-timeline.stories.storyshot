@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Component/Feed Timeline default 1`] = `
+<div
+  className="feed_timeline"
+>
+  <div
+    className="feed_timeline__item"
+  >
+    <span
+      className="feed_timeline__item_featured_badge"
+    >
+      Featured!
+    </span>
+    <img
+      alt="React is officially dominating the world!"
+      className="feed_timeline__item_image"
+      src="./cdn/news1.png"
+    />
+    <div
+      className="feed_timeline__item_timeline"
+    >
+      <h3
+        className="feed_timeline__item_title"
+      >
+        React is officially dominating the world!
+      </h3>
+      <span
+        className="feed_timeline__item_author"
+      >
+        ReactMcReactyFace
+      </span>
+      <span
+        className="feed_timeline__item_date"
+      >
+        April 15, 2018
+      </span>
+    </div>
+  </div>
+  <div
+    className="feed_timeline__item"
+  >
+    <span
+      className="feed_timeline__item_featured_badge"
+    >
+      Featured!
+    </span>
+    <img
+      alt="SkyNet core development team claimed to have finished porting their UI to React!"
+      className="feed_timeline__item_image"
+      src="./cdn/news3.jpg"
+    />
+    <div
+      className="feed_timeline__item_timeline"
+    >
+      <h3
+        className="feed_timeline__item_title"
+      >
+        SkyNet core development team claimed to have finished porting their UI to React!
+      </h3>
+      <span
+        className="feed_timeline__item_author"
+      >
+        ReactMcReactyFace
+      </span>
+      <span
+        className="feed_timeline__item_date"
+      >
+        April 15, 2018
+      </span>
+    </div>
+  </div>
+  <div
+    className="feed_timeline__item"
+  >
+    <img
+      alt="React Refrigerator officially released!"
+      className="feed_timeline__item_image"
+      src="./cdn/news5.jpeg"
+    />
+    <div
+      className="feed_timeline__item_timeline"
+    >
+      <h3
+        className="feed_timeline__item_title"
+      >
+        React Refrigerator officially released!
+      </h3>
+      <span
+        className="feed_timeline__item_author"
+      >
+        ReactMcReactyFace
+      </span>
+      <span
+        className="feed_timeline__item_date"
+      >
+        April 15, 2018
+      </span>
+    </div>
+  </div>
+  <div
+    className="feed_timeline__item"
+  >
+    <img
+      alt="React confirmed to officially sponsors Olympic Games 2034"
+      className="feed_timeline__item_image"
+      src="./cdn/news4.jpeg"
+    />
+    <div
+      className="feed_timeline__item_timeline"
+    >
+      <h3
+        className="feed_timeline__item_title"
+      >
+        React confirmed to officially sponsors Olympic Games 2034
+      </h3>
+      <span
+        className="feed_timeline__item_author"
+      >
+        ReactMcReactyFace
+      </span>
+      <span
+        className="feed_timeline__item_date"
+      >
+        April 15, 2018
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Component/Feed Timeline item 1`] = `
+<div
+  className="feed_timeline__item"
+>
+  <span
+    className="feed_timeline__item_featured_badge"
+  >
+    Featured!
+  </span>
+  <img
+    alt="React is officially dominating the world!"
+    className="feed_timeline__item_image"
+    src="./cdn/news1.png"
+  />
+  <div
+    className="feed_timeline__item_timeline"
+  >
+    <h3
+      className="feed_timeline__item_title"
+    >
+      React is officially dominating the world!
+    </h3>
+    <span
+      className="feed_timeline__item_author"
+    >
+      ReactMcReactyFace
+    </span>
+    <span
+      className="feed_timeline__item_date"
+    >
+      April 15, 2018
+    </span>
+  </div>
+</div>
+`;

@@ -1,0 +1,43 @@
+
+.newsfeed__logo {
+  display: inline-block;
+  vertical-align: middle;
+  animation: newsfeed-logo-spin infinite 20s linear;
+  height: 30px;
+}
+
+.newsfeed__header {
+  background-color: #222;
+  text-align: left;
+  height: 100px;
+  padding: 20px;
+  color: white;
+}
+
+.newsfeed__title {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.5em;
+}
+
+.newsfeed__intro {
+  font-size: large;
+}
+
+.newsfeed__content {
+  text-align: left;
+  max-width: 1366px;
+  margin:0 auto;
+}
+
+.newsfeed__content_header {
+  display: block;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@keyframes newsfeed-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

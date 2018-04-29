@@ -1,0 +1,24 @@
+.header {
+    position: relative;
+    text-align: left;
+    padding: 0 10px;
+    background: #5fd4f3;
+}
+
+.header__navlink {
+    position: relative;
+    display: inline-block;
+    padding: 20px 10px;
+    color: #222;
+    text-decoration: none;
+    background: #5fd4f3;
+}
+
+.header__navlink:hover {
+    background: #90d8ec;
+}
+
+.header__navlink.selected {
+    background: #222;
+    color: #5fd4f3;
+}

@@ -1,0 +1,51 @@
+
+.feed_widget__item {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 33.3%;
+    padding-bottom: 20%;
+}
+
+.feed_widget__image {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+}
+
+.feed_widget__content {
+    position: absolute;
+    left:0;
+    bottom:0;
+    width: 100%;
+    height: 100px;
+    text-align: left;
+    padding: 0 10px;
+    box-sizing: border-box;
+    background: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.9));
+}
+
+.feed_widget__title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.feed_widget__info {
+    color: #fff;
+}
+
+.feed_widget__author {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.feed_widget__date {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 10px;
+}

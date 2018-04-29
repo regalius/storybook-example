@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Component/Courses Widget default 1`] = `
+<div
+  className="courses_widget"
+>
+  <div
+    className="courses_widget__item"
+  >
+    <img
+      alt="React 101: Learn the Basics"
+      className="courses_widget__item_image"
+      src="./cdn/news1.png"
+    />
+    <div
+      className="courses_widget__item_content"
+    >
+      <div
+        className="courses_widget__item_content_wrapper"
+      >
+        <span
+          className="courses_widget__item_title"
+        >
+          React 101: Learn the Basics
+        </span>
+        <div
+          className="courses_widget__item_info"
+        >
+          <span
+            className="courses_widget__item_author"
+          >
+            ReactMcReactyFace
+          </span>
+          <span
+            className="courses_widget__item_duration"
+          >
+            1:01:00
+          </span>
+        </div>
+        <button
+          className="courses_widget__item_enroll_btn"
+          onClick={[Function]}
+        >
+          Enroll now!
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="courses_widget__item"
+  >
+    <img
+      alt="Go Pro with React Native"
+      className="courses_widget__item_image"
+      src="./cdn/news3.jpg"
+    />
+    <div
+      className="courses_widget__item_content"
+    >
+      <div
+        className="courses_widget__item_content_wrapper"
+      >
+        <span
+          className="courses_widget__item_title"
+        >
+          Go Pro with React Native
+        </span>
+        <div
+          className="courses_widget__item_info"
+        >
+          <span
+            className="courses_widget__item_author"
+          >
+            ReactMcReactyFace
+          </span>
+          <span
+            className="courses_widget__item_duration"
+          >
+            4:01:00
+          </span>
+        </div>
+        <button
+          className="courses_widget__item_enroll_btn"
+          onClick={[Function]}
+        >
+          Enroll now!
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="courses_widget__item"
+  >
+    <img
+      alt="Buildin Next Gen UI with ReactVR"
+      className="courses_widget__item_image"
+      src="./cdn/news5.jpeg"
+    />
+    <div
+      className="courses_widget__item_content"
+    >
+      <div
+        className="courses_widget__item_content_wrapper"
+      >
+        <span
+          className="courses_widget__item_title"
+        >
+          Buildin Next Gen UI with ReactVR
+        </span>
+        <div
+          className="courses_widget__item_info"
+        >
+          <span
+            className="courses_widget__item_author"
+          >
+            ReactMcReactyFace
+          </span>
+          <span
+            className="courses_widget__item_duration"
+          >
+            00:12:00
+          </span>
+        </div>
+        <button
+          className="courses_widget__item_enroll_btn"
+          onClick={[Function]}
+        >
+          Enroll now!
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Component/Courses Widget item 1`] = `
+<div
+  className="courses_widget__item"
+>
+  <img
+    alt="React 101: Learn the Basics"
+    className="courses_widget__item_image"
+    src="./cdn/news1.png"
+  />
+  <div
+    className="courses_widget__item_content"
+  >
+    <div
+      className="courses_widget__item_content_wrapper"
+    >
+      <span
+        className="courses_widget__item_title"
+      >
+        React 101: Learn the Basics
+      </span>
+      <div
+        className="courses_widget__item_info"
+      >
+        <span
+          className="courses_widget__item_author"
+        >
+          ReactMcReactyFace
+        </span>
+        <span
+          className="courses_widget__item_duration"
+        >
+          1:01:00
+        </span>
+      </div>
+      <button
+        className="courses_widget__item_enroll_btn"
+        onClick={[Function]}
+      >
+        Enroll now!
+      </button>
+    </div>
+  </div>
+</div>
+`;

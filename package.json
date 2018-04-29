@@ -1,0 +1,46 @@
+{
+    "name": "storybook-example",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "axios": "^0.18.0",
+        "cross-env": "^5.1.4",
+        "npm-run-all": "^4.1.2",
+        "react": "^16.3.1",
+        "react-dom": "^16.3.1",
+        "react-redux": "^5.0.7",
+        "react-router-dom": "^4.2.2",
+        "react-scripts": "1.1.4",
+        "redux": "^3.7.2",
+        "redux-devtools-extension": "^2.13.2",
+        "redux-thunk": "^2.2.0",
+        "reselect": "^3.0.1"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test":
+            "wait-port http://localhost:9009 && react-scripts test --env=jsdom",
+        "test:ci": "cross-env CI=true yarn test",
+        "test:watch": "npm-run-all --parallel storybook test",
+        "build-test:ci": "npm-run-all build-storybook test:ci",
+        "eject": "react-scripts eject",
+        "storybook": "start-storybook -p 9009 -s public",
+        "build-storybook": "build-storybook -s public"
+    },
+    "devDependencies": {
+        "@storybook/addon-actions": "^3.4.3",
+        "@storybook/addon-info": "^3.4.3",
+        "@storybook/addon-knobs": "^3.4.3",
+        "@storybook/addon-links": "^3.4.3",
+        "@storybook/addon-storyshots": "^3.4.3",
+        "@storybook/addons": "^3.4.3",
+        "@storybook/react": "^3.4.3",
+        "babel-core": "^6.26.3",
+        "babel-runtime": "^6.26.0",
+        "flow-bin": "^0.71.0",
+        "react-test-renderer": "^16.3.2",
+        "storybook-react-router": "^1.0.1",
+        "wait-port": "^0.2.2"
+    }
+}
